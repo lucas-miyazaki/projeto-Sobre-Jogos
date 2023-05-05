@@ -1,0 +1,161 @@
+body{
+    margin: auto;
+    text-align: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+.container {
+display: flex;
+justify-content: center;
+}
+
+a{
+  background-color: transparent;
+  color: black;
+  text-decoration:none;
+}
+a.link2{
+  background-color: darkblue;
+  color: rgb(255, 255, 255);
+  text-decoration:none;
+}
+a.link2:hover{
+  background-color: rgb(255, 255, 255);
+  color: darkblue;
+  text-decoration:none;
+}
+
+* {box-sizing:order-box}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  display: flex;
+  justify-content: center;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.dot {
+  cursor: pointer;
+  height: auto;
+  width: 15px;
+  margin: auto;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+div.texto{
+  margin: auto;
+  text-align: center;
+  text-align: center;
+}
+
+nav.jogoslink{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: 'Lemon Milk', cursive;
+  list-style-type: none;
+  text-decoration: none;
+}
+h1.nomesite{
+  font-family: 'arial', cursive;
+  
+}
+
+h3{
+  background-color: rgb(199, 238, 255);
+}
+
+body{
+  background-color: darkblue;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-family: 'arial', cursive;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+div.cursor {
+  display: flex;
+
+}
+
+.juntos {
+display: flex;
+
+}
+
+.prev {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  justify-content: space-evenly;
+}
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
